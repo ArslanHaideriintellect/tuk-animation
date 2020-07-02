@@ -1,0 +1,38 @@
+body{
+    overflow-x: hidden;
+}
+.extra-div-1{
+    width:290px;
+    height:283px;
+    background-image: url("/images/extra-div-1.png");
+    top:270px;
+    left: 160px;
+}
+.extra-div-2{
+    width:404px;
+    height:255px;
+    background-image: url("/images/extra-div-2.png");
+    top: 635px;
+    left: 300px;
+}
+.extra-div-3{
+    width: 427px;
+    height: 165px;
+    background-image: url(/images/extra-div-3.png);
+    top: 714px;
+    left: 842px;
+}
+.extra-div-4{
+    width: 296px;
+    height: 165px;
+    background-image: url(/images/extra-div-4.png);
+    top: 199px;
+    left: 1184px;
+}
+.extra-div-5{
+    width: 208px;
+    height: 167px;
+    background-image: url(/images/extra-div-5.png);
+    top: 420px;
+    left: 1258px;
+}
