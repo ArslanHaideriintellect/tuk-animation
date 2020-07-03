@@ -1,16 +1,17 @@
+import React from "react";
+
+
 const MainGrid = () => {
     return (
         <div className="test-container">
             <div className="second-main-div">
-                <div className="test-section bg-gray-200">
-
-                    <div className="absolute extra-divs extra-div-1 bg-cover bg-no-repeat"></div>
-                    <div className="absolute extra-divs extra-div-2 bg-cover bg-no-repeat"></div>
-                    <div className="absolute extra-divs extra-div-3 bg-cover bg-no-repeat"></div>
-                    <div className="absolute extra-divs extra-div-4 bg-cover bg-no-repeat"></div>
-                    <div className="absolute extra-divs extra-div-5 bg-cover bg-no-repeat"></div>
-
+                <div className="test-section">
                     <section className="mx-auto container pt-12 inner-chuss" >
+                        <div className="absolute extra-divs extra-div-1 bg-cover bg-no-repeat"></div>
+                        <div className="absolute extra-divs extra-div-2 bg-cover bg-no-repeat"></div>
+                        <div className="absolute extra-divs extra-div-3 bg-cover bg-no-repeat"></div>
+                        <div className="absolute extra-divs extra-div-4 bg-cover bg-no-repeat"></div>
+                        <div className="absolute extra-divs extra-div-5 bg-cover bg-no-repeat"></div>
                         <div className="flex flex-col sm:flex-col md:flex-row lg:flex-row">
                             <div
                                 className="flex flex-col lg:w-5/12 md:w-6/12 px-4 lg:pr-3 justify-center md:mb-0 lg:mb-24 md:pt-0 lg:pt-24">
@@ -249,8 +250,7 @@ const MainGrid = () => {
                 </div>
             </div>
         </div>
-
-
     )
-}
+};
+
 export default MainGrid
